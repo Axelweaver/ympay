@@ -1,12 +1,16 @@
+body {
+	background-color: var(--tg-theme-bg-color);
+	color: var(--tg-theme-text-color);
+}
 .form-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; /* vh stands for viewport height */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
 }
 
 form {
-  width: 50%; /* adjust this value to control the form's width */
+	width: 80%;
 }
 
 input[type='submit'] {
@@ -29,4 +33,11 @@ input[type='submit'] {
 }
 input[type='submit']:hover {
 	background-color: #157347;
+}
+h1 {
+	font-size: 3rem;
+	line-height: 1.2;
+	margin-top: 0;
+    margin-bottom: 0.5rem;
+	text-align: center;
 }
