@@ -1,0 +1,32 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* vh stands for viewport height */
+}
+
+form {
+  width: 50%; /* adjust this value to control the form's width */
+}
+
+input[type='submit'] {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #198754;
+    border-radius: 0.25rem;
+    padding: 0.75rem 0.375rem;
+    font-family: 'Calibri';
+    font-size: 1.16rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+    width: 100%;
+    margin: 0.4rem;
+}
+input[type='submit']:hover {
+	background-color: #157347;
+}
